@@ -4,8 +4,7 @@ import Layout from "./Layout/Layout";
 function App() {
   return (
     <div>
-      Hai
-      {/* <Layout /> */}
+      <Layout />
     </div>
   );
 }

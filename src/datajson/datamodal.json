@@ -1,0 +1,43 @@
+{
+    "biodata": [{
+            "id": 1,
+            "name": "Asnawai M",
+            "bio": {
+                "tgl_lahir": "Makasar, 4 Oktober 199",
+                "tinggi": "1,75 m",
+                "tim": "Ansan Greners FC",
+                "posisi": "Gelandang Bertahan"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Egy M V",
+            "bio": {
+                "tgl_lahir": "Makasar, 4 Oktober 199",
+                "tinggi": "1,75 m",
+                "tim": "Ansan Greners FC",
+                "posisi": "Gelandang Bertahan"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Egy M V",
+            "bio": {
+                "tgl_lahir": "Makasar, 4 Oktober 199",
+                "tinggi": "1,75 m",
+                "tim": "Ansan Greners FC",
+                "posisi": "Gelandang Bertahan"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Egy M V",
+            "bio": {
+                "tgl_lahir": "Makasar, 4 Oktober 199",
+                "tinggi": "1,75 m",
+                "tim": "Ansan Greners FC",
+                "posisi": "Gelandang Bertahan"
+            }
+        }
+    ]
+}
