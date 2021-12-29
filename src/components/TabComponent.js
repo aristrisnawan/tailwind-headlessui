@@ -2,6 +2,7 @@ import React from "react";
 import { Tab } from "@headlessui/react";
 import ModalComponent from "./ModalComponent";
 import DisclosureComponent from "./DisclosureComponent";
+import PopoverComponent from "./PopoverComponent";
 
 export default function TabComponent() {
   return (
@@ -73,16 +74,18 @@ export default function TabComponent() {
           </Tab>
         </Tab.List>
         <Tab.Panels>
-          <Tab.Panel>
-            <ModalComponent />
-          </Tab.Panel>
+          <Tab.Panel>Content 1</Tab.Panel>
           <Tab.Panel>Content 2</Tab.Panel>
           <Tab.Panel>Content 3</Tab.Panel>
           <Tab.Panel>
             <DisclosureComponent />
           </Tab.Panel>
-          <Tab.Panel>Content 3</Tab.Panel>
-          <Tab.Panel>Content 3</Tab.Panel>
+          <Tab.Panel>
+            <ModalComponent />
+          </Tab.Panel>
+          <Tab.Panel>
+            <PopoverComponent />
+          </Tab.Panel>
           <Tab.Panel>Content 3</Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
