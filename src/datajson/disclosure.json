@@ -1,0 +1,24 @@
+{
+    "data": [{
+            "id": 1,
+            "title1": "Apa tim sepakbola favorite mu ?",
+            "description1": "Tim sepakbola favoritku adalah Persib Bandung",
+            "title2": "Siapa pemain favorite mu?",
+            "description2": "Pemain sepakbola favorite ku adalah mbida mesi"
+        },
+        {
+            "id": 2,
+            "title1": "Apa hobby mu?",
+            "description1": "Hobby ku adalah makan, olahraga dan juga belajar.",
+            "title2": "Siapa artis favorite mu?",
+            "description2": "Artis favorite ku adalah Vincent dan Desta"
+        },
+        {
+            "id": 3,
+            "title1": "Apa negara tujuan wisata mu ?",
+            "description1": "Negara tujuan wisata ku adalah Singapura dan Australia",
+            "title2": "Sebutkan 5 negara berasal dari A!",
+            "description2": "Negara yang berasal dari huruf A : Australia, Austria, Amerika, Afghanistan dan Aljazair"
+        }
+    ]
+}

@@ -14,9 +14,6 @@ export default function ModalComponent() {
     setDetail(findDetail);
   }, []);
 
-  const hasil = detail.bio;
-  console.log(hasil);
-
   return (
     <div className="mt-5">
       <div className="grid grid-cols-4 space-x-2">
