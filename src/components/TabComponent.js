@@ -4,6 +4,7 @@ import ModalComponent from "./ModalComponent";
 import DisclosureComponent from "./DisclosureComponent";
 import PopoverComponent from "./PopoverComponent";
 import DropdownComponent from "./DropdownComponent";
+import ListboxComponent from "./ListboxComponent";
 
 export default function TabComponent() {
   return (
@@ -74,11 +75,13 @@ export default function TabComponent() {
             Radio Group
           </Tab>
         </Tab.List>
-        <Tab.Panels className="h-96">
+        <Tab.Panels className=" h-56">
           <Tab.Panel>
             <DropdownComponent />
           </Tab.Panel>
-          <Tab.Panel>Content 2</Tab.Panel>
+          <Tab.Panel>
+            <ListboxComponent />
+          </Tab.Panel>
           <Tab.Panel>Content 3</Tab.Panel>
           <Tab.Panel>
             <DisclosureComponent />
