@@ -1,0 +1,21 @@
+{
+    "radio": [{
+            "id": 1,
+            "title1": "Apel",
+            "title2": "Mangga",
+            "title3": "Melon"
+        },
+        {
+            "id": 2,
+            "title1": "Bandung",
+            "title2": "Jakarta",
+            "title3": "Malang"
+        },
+        {
+            "id": 3,
+            "title1": "Indonesia",
+            "title2": "Mekah",
+            "title3": "Madinah"
+        }
+    ]
+}

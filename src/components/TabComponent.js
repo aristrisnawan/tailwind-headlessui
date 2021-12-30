@@ -6,6 +6,7 @@ import PopoverComponent from "./PopoverComponent";
 import DropdownComponent from "./DropdownComponent";
 import ListboxComponent from "./ListboxComponent";
 import SwitchCompnent from "./SwitchCompnent";
+import RadioComponent from "./RadioComponent";
 
 export default function TabComponent() {
   return (
@@ -95,7 +96,9 @@ export default function TabComponent() {
           <Tab.Panel>
             <PopoverComponent />
           </Tab.Panel>
-          <Tab.Panel>Content 3</Tab.Panel>
+          <Tab.Panel>
+            <RadioComponent />
+          </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
     </div>
