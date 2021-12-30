@@ -5,6 +5,7 @@ import DisclosureComponent from "./DisclosureComponent";
 import PopoverComponent from "./PopoverComponent";
 import DropdownComponent from "./DropdownComponent";
 import ListboxComponent from "./ListboxComponent";
+import SwitchCompnent from "./SwitchCompnent";
 
 export default function TabComponent() {
   return (
@@ -82,7 +83,9 @@ export default function TabComponent() {
           <Tab.Panel>
             <ListboxComponent />
           </Tab.Panel>
-          <Tab.Panel>Content 3</Tab.Panel>
+          <Tab.Panel>
+            <SwitchCompnent />
+          </Tab.Panel>
           <Tab.Panel>
             <DisclosureComponent />
           </Tab.Panel>
